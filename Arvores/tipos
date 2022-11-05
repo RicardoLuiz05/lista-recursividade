@@ -1,0 +1,14 @@
+Préordem:
+-Consome a raíz,
+-vai para subarvores esquerda recursivamente,
+-depois para a subarvore direita recursivamente. (ele começa no nó raíz)
+
+Inordem:
+-Consome a subarvore esquerda recursivamente,
+-vai para a raiz,
+-depois para a subarvores direita recursivamente. (ele começa no nó folha)
+
+Pósordem:
+-Consome a subarvore esquerda recursivamente,
+-vai para a subarvore direita recursivamente,
+-depois a raiz. (ele consome todas  as folhas antes de subir o nivel)
