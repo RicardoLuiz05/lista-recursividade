@@ -5,6 +5,8 @@ class Bi:
         self.__leftChild = None
         self.__rightChild = None
 
+    count = 0
+
     @property
     def data(self):
         return self.__data
@@ -21,6 +23,7 @@ class Bi:
     def insertLeft(self, novo):
         if self.__leftChild == None:
             self.__leftChild = novo
+            count += 1
 
     @property
     def getRightChild(self):
@@ -30,10 +33,8 @@ class Bi:
     def insertRight(self, novo):
         if self.__rightChild == None:
             self.__rightChild = novo
+            count +=1
 
-    # def setValue(self, newValue):
-    #     self.data = newValue
-
-    # def getValue(self):
-    #     return self.data
+    def count (self):
+        return count
 
