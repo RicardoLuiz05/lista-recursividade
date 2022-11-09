@@ -1,0 +1,2 @@
+def decToBin(n):
+    ei

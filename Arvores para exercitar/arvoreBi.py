@@ -11,7 +11,7 @@ class Bi:
 
     @data.setter
     def data(self, novo):
-        self.__dado = novo
+        self.__data = novo
 
     @property
     def getLeftChild(self):
