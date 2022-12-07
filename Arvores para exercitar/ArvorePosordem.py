@@ -1,5 +1,5 @@
 from arvoreBi import Bi
-from posordem import ClassPosordem
+from preordem import ClassPreordem
 
 raiz = Bi('1')
 raiz.insertLeft = Bi('2')
@@ -13,5 +13,5 @@ P1.insertRight = Bi('4')
 P2.insertLeft = Bi('5')
 P2.insertRight = Bi('6')
 
-arvore = ClassPosordem()
-arvore.posordem(raiz)
+arvore = ClassPreordem()
+arvore.preordem(raiz)
