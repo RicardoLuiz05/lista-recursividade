@@ -6,7 +6,7 @@ def bolha(array):
                 # Efetua a troca
 
 # main
-v = [5, 9, 7, 21, 18, 1, 4]
+v = [1, 2, 4, 6, 7, 9, 12]
 print(v)
 bolha( v )
 print(v)
